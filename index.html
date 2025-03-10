@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/fav.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Heer Thakkar - Portfolio</title>
+    <meta
+      name="description"
+      content="Varun Vadher - Full stack developer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,500&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet"/>
+    <style>
+        body {
+            font-family: "Noto Sans", sans-serif;
+            background-color: rgb(52, 4, 42);
+            color: white;
+        }
+        
+        .bg-image {
+            background-image: url("assets/noise.webp");
+        }
+
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+
+        .cursor-blink {
+            animation: blink 1s steps(2) infinite;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="mx-auto max-w-7xl overflow-x-hidden antialiased">
+        <div class="bg-image fixed inset-0 bg-cover bg-fixed bg-center"></div>
+        <div class="relative z-10">
+            <!-- Navbar -->
+            <nav class="fixed left-0 right-0 z-50 lg:top-4">
+                <div class="mx-auto hidden max-w-xl items-center justify-center rounded-full border border-white/30 py-2 backdrop-blur-lg lg:flex">
+                    <div class="flex items-center justify-center gap-6">
+                        <div>
+                            <a href="index_01.html" class="uppercase">Heer Thakkar</a>
+                        </div>
+                    </div>
+                    <ul class="ml-4 flex items-center gap-4">
+                        <li><a href="#skills" class="text-sm hover:text-stone-300">Skills</a></li>
+                        <li><a href="#work" class="text-sm hover:text-stone-300">Work Experience</a></li>
+                        <li><a href="#education" class="text-sm hover:text-stone-300">Education</a></li>
+                        <li><a href="#contact" class="text-sm hover:text-stone-300">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- Mobile Menu -->
+                <div class="py-2 backdrop-blur-md lg:hidden">
+                    <div class="flex items-center justify-between">
+                        <a href="#" class="pl-2 uppercase">Heer Thakkar</a>
+                        <button class="m-2 focus:outline-none" id="menuButton">
+                            <i class="ri-menu-3-line h-6 w-5"></i>
+                        </button>
+                    </div>
+                    <div id="mobileMenu" class="hidden">
+                        <ul class="my-4 ml-4 flex flex-col gap-6 backdrop-blur-md">
+                            <li><a href="#skills" class="block w-full text-lg">Skills</a></li>
+                            <li><a href="#work" class="block w-full text-lg">Work Experience</a></li>
+                            <li><a href="#education" class="block w-full text-lg">Education</a></li>
+                            <li><a href="#contact" class="block w-full text-lg">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Hero Section -->
+            <section class="flex min-h-screen flex-col items-center justify-center gap-4 lg:gap-6">
+                <div class="mt-16 lg:mt-20">
+                    <h1 class="text-4xl uppercase lg:text-7xl">Heer Thakkar</h1>
+                    <h2 class="mt-2 bg-gradient-to-b from-pink-200 to-purple-300 bg-clip-text text-center text-2xl tracking-tighter text-transparent">
+                        Full Stack Developer
+                    </h2>
+                </div>
+                <p class="max-w-2xl p-2 text-center text-xl tracking-tighter lg:text-2xl">
+                    Currently a third-year Computer Science Engineering student with a strong background in web development. 
+                    Experienced in developing innovative solutions.
+                </p>
+                <img src="heer dp.jpg" alt="Heer Thakkar" width="400" height="400"
+                    class="rounded-3xl border border-purple-300/20 p-1">
+                
+            </section>
+
+            <!-- Experience Section -->
+            <div class="py-16" id="work">
+                <div class="mx-auto max-w-4xl px-4">
+                    <h2 class="mb-12 text-center text-3xl font-medium lg:text-4xl">Experience</h2>
+                    <div class="flex flex-col space-y-12">
+                        <div class="flex flex-col items-start justify-between md:flex-row">
+                            <div class="w-full text-sm font-semibold text-stone-300 md:w-1/4 lg:text-lg">
+                                Jun 2024 - July 2024
+                            </div>
+                            <div class="w-full md:w-3/4">
+                                <h3 class="mb-2 text-lg lg:text-2xl">
+                                    Web Developer - 
+                                    <span class="bg-gradient-to-b from-purple-400 to-pink-200 bg-clip-text text-transparent">
+                                        KBA Systems Pvt. Ltd.
+                                    </span>
+                                </h3>
+                                <p class="mb-4 text-sm lg:text-base">
+                                    Worked on web designing, web development, coding and debugging.
+                                </p>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="rounded-full border-2 border-pink-500/30 px-3 py-1 font-semibold text-sm">HTML</span>
+                                    <span class="rounded-full border-2 border-pink-500/30 px-3 py-1 font-semibold text-sm">CSS</span>
+                                    <span class="rounded-full border-2 border-pink-500/30 px-3 py-1 font-semibold text-sm">Javascript</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skills Section -->
+            <div class="py-16" id="skills">
+                <div class="px-4">
+                    <h2 class="mb-8 text-center text-3xl font-medium lg:text-4xl">Skills</h2>
+                    <div class="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-4">
+                        <!-- Skills will be dynamically inserted here using JavaScript -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Education Section -->
+            <div class="py-16" id="education">
+                <div class="mx-auto max-w-full px-4">
+                    <h2 class="mb-8 text-center text-3xl font-medium lg:text-4xl">Education</h2>
+                    <div class="flex flex-col space-y-8">
+                        <div class="rounded-xl border border-purple-300/20 p-6">
+                            <h3 class="mb-2 text-lg lg:text-2xl">Bachelor of Technology in Computer Science Engineering</h3>
+                            <h4 class="text-lg font-medium lg:text-xl">Silver Oak College Of Engineering And Technology</h4>
+                            <p class="mt-4 text-sm lg:text-base">2022 - 2026</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Section -->
+            <div class="py-16" id="contact">
+                <div class="px-4 text-center">
+                    <h2 class="mb-8 text-3xl font-medium lg:text-4xl">Contact</h2>
+                    <p class="mb-4 text-lg lg:text-xl">
+                        Feel free to reach out to me via email:
+                        <a href="mailto:heerthakkar223@gmail.com" class="border-b">heerthakkar223@gmail.com</a>
+                    </p>
+                    <div class="mt-8 flex justify-center space-x-6">
+                        <a href="https://github.com/heer-sm" target="_blank" rel="noopener noreferrer"
+                            class="text-3xl">
+                            <i class="ri-github-fill"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Mobile menu toggle
+        const menuButton = document.getElementById('menuButton');
+        const mobileMenu = document.getElementById('mobileMenu');
+        
+        menuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+            const icon = menuButton.querySelector('i');
+            icon.classList.toggle('ri-menu-3-line');
+            icon.classList.toggle('ri-close-line');
+        });
+
+        // Skills data
+        const skills = [
+            { name: "HTML5", icon: "https://img.icons8.com/?size=100&id=20909&format=png&color=000000" },
+            { name: "CSS", icon: "https://img.icons8.com/?size=100&id=21278&format=png&color=000000" },
+            { name: "JavaScript", icon: "https://img.icons8.com/?size=100&id=108784&format=png&color=000000" },
+            { name: "React", icon: "https://img.icons8.com/?size=100&id=35989&format=png&color=228BE6" },
+        ];
+
+        // Populate skills
+        const skillsContainer = document.querySelector('#skills .grid');
+        skills.forEach(skill => {
+            const skillElement = document.createElement('div');
+            skillElement.className = 'flex flex-col items-center text-center';
+            skillElement.innerHTML = `
+                <div class="mb-4 w-12 h-12 transform transition duration-300 hover:scale-125">
+                    <img src="${skill.icon}" alt="${skill.name}">
+                </div>
+                <h3 class="mb-2 text-lg font-medium lg:text-xl">${skill.name}</h3>
+            `;
+            skillsContainer.appendChild(skillElement);
+        });
+    </script>
+  </body>
+</html>
